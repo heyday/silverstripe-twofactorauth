@@ -1,7 +1,7 @@
 # User guide
 
 ## Setting up two factor authentication
-Users will need access to view their CMS profile (/admin/myprofile) to enable and manage two factor authentication. Depending on the configuration, the below screenshots may look slightly different, but the general process is the same.
+Users will need access to view their CMS profile to enable and manage two factor authentication. 
 
 1. Log into the CMS and navigate to your profile's "Two Factor Authentication" tab.
     <img width="550" alt="2fa activation" src="https://user-images.githubusercontent.com/1005986/27335909-4e292a6a-55ce-11e7-9bcd-ea871307a43b.png">
