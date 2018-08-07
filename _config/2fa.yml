@@ -14,3 +14,7 @@ SilverStripe\Core\Injector\Injector:
     properties:
       Authenticators:
         default: '%$_2fa\Authenticator\MFAAuthenticator'
+  SilverStripe\Admin\CMSProfileController:
+    class: _2fa\Controller\CMSProfileController
+CMSSecurity:
+  reauth_enabled: false
