@@ -58,7 +58,7 @@ class MFALoginHandler extends LoginHandler
 
             // Do normal login for non 2FA member
             if (!$member->Has2FA) {
-                parent::doLogin($data, $form, $request);
+                return parent::doLogin($data, $form, $request);
             }
 
             $request = Controller::curr()->getRequest();
